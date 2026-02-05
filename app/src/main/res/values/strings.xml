@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppShope</string>
+    <string name="welcome_to_x_store">Welcome to X store</string>
+    <string name="let_go_for_shopping">Let\' go for shopping !</string>
+</resources>

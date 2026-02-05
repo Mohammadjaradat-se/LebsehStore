@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#7B4EFF"
+        android:background="@android:color/transparent"
+        android:layout_margin="12dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:background="@drawable/background_men1">
+
+        <TextView
+            android:id="@+id/txt_men"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Men's Clothing"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@android:color/white"
+            android:background="#66000000"
+            android:padding="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"/>
+
+        <Button
+            android:id="@+id/men_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Go for shopping"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#7B4EFF"
+            android:layout_below="@id/txt_men"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:onClick="Click_man"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:background="@drawable/background_women">
+
+
+        <TextView
+            android:id="@+id/txt_women"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Women's Clothing Section"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@android:color/white"
+            android:background="#66000000"
+            android:padding="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"/>
+        <Button
+            android:id="@+id/women_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Go for shopping"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#7B4EFF"
+            android:layout_below="@id/txt_women"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:background="@drawable/background_kids">
+
+
+        <TextView
+            android:id="@+id/txt_kids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kid's Clothing Section"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@android:color/white"
+            android:background="#66000000"
+            android:padding="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"/>
+        <Button
+            android:id="@+id/kids_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Go for shopping"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#7B4EFF"
+            android:layout_below="@id/txt_kids"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
