@@ -2,6 +2,10 @@
 
 Simple Android shopping application built using **Java** and **XML**.
 
+## 🎥 App Demo
+👉 Watch the demo video here:
+(https://youtube.com/shorts/Jf9i59Ou3Qg?si=eLEQQqIq5JiFrrJt)
+
 ## Features
 - Multiple product sections (T-Shirts, Jeans, Jackets, Shoes)
 - Clean and modern UI
