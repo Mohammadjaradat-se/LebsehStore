@@ -17,4 +17,13 @@ Simple Android shopping application built using **Java** and **XML**.
 - Android Studio
 
 ## Purpose
-This project was built as a practice Android app to demonstrate UI design, activity navigation, and basic shopping cart logic.
+This project was developed as a university practical assignment to apply Android development concepts using Java and XML.
+
+The main goal of the project is to build a simple store-style mobile application that demonstrates:
+- Designing multiple UI screens
+- Navigation between activities
+- Organizing products into categories
+- Creating clean and user-friendly layouts
+
+The application focuses on UI structure and navigation 
+
